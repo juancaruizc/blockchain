@@ -118,12 +118,10 @@ class Wallet {
 
 // Example usage
 
-const satoshi = new Wallet();
-const bob = new Wallet();
-const alice = new Wallet();
+const july = new Wallet();
+const juanca = new Wallet();
 
-satoshi.sendMoney(50, bob.publicKey);
-bob.sendMoney(23, alice.publicKey);
-alice.sendMoney(5, bob.publicKey);
+july.sendMoney(50, july.publicKey);
+juanca.sendMoney(23, juanca.publicKey);
 
 console.log(Chain.instance);
