@@ -1,0 +1,26 @@
+{
+  "name": "jeshcoin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc -w",
+    "start": "tsc && node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juancaruizc/jeshcoin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juancaruizc/jeshcoin/issues"
+  },
+  "homepage": "https://github.com/juancaruizc/jeshcoin#readme",
+  "devDependencies": {
+    "@types/node": "^15.0.2",
+    "typescript": "^4.2.4"
+  }
+}
